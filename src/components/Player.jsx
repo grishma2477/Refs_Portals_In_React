@@ -7,6 +7,7 @@ const playerNameRef = useRef();
 
 const handleClick = ()=>{
  setPlayerName(playerNameRef.current.value);
+ playerNameRef.current.value = '';
 }
 
   return (
